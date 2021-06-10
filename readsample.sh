@@ -5,9 +5,8 @@ echo "Enter Your Name: "
 read FIRSTNAME
 echo "Enter Your Last Name: "
 read LASTNAME
-
 echo "Enter Your Favarate Crickter: "
-
+read CRICKETER
 echo " "
 echo "Your Full Name is: $FIRSTNAME $LASTNAME"
 echo " "
