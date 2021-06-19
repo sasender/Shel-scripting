@@ -7,4 +7,4 @@ for index in ${serverlist[@]}; do
   echo "processing server: ${serverlist[count]}"
   count="`expr $count + 1`"
 done
-  
+   
