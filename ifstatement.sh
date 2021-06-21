@@ -5,7 +5,7 @@ echo "testing for the existense of a file called $FILENAME"
 
 if [ ! -a $FILENAME ]
   then
-    echo "file $filename does indeed exist!"
+    echo "file $filename does not exist!"
 fi 
 #fi is the if statement    
 # ! it shows the existing file or not existing file 
