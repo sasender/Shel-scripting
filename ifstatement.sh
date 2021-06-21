@@ -3,7 +3,7 @@
 FILENAME=$1
 echo "testing for the existense of a file called $FILENAME"
 
-if [ ! -a $FILENAME ]
+if [ !  $FILENAME ]
   then
     echo "file $FILENAME does not exist!"
 fi 
