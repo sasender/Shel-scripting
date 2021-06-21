@@ -1,11 +1,11 @@
 #!/bin/bash
 #test for existence of indicated file name
 FILENAME=$1
-echo "testing for the existense of a file called $FILENAME"
+echo "Testing for the Existense of a File called $FILENAME"
 
-if [ !  $FILENAME ]
+if [ ! -a $FILENAME ]
   then
-    echo "file $FILENAME does not exist!"
+    echo "File $FILENAME Does not Exist!"
 fi 
 #fi is the if statement    
 # ! it shows the existing file or not existing file 
