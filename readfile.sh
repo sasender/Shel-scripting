@@ -6,4 +6,4 @@ read file
 
 while read -r players; do 
   echo "player name: $players"
-done < "$file"  
+done < "$FILE"  
