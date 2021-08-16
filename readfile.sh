@@ -5,5 +5,5 @@ echo "enter a file name to read: "
 read file
 
 while read -r players; do 
-  echo "player name: $players.txt"
+  echo "player name: $players"
 done < "$file"  
